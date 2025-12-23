@@ -1,5 +1,5 @@
 export async function registerUser(name, email, password) {
-  const res = await fetch("https://server-red-sigma-78.vercel.app/api/auth/register", {
+  const res = await fetch("https://server-mu-one-98.vercel.app/api/auth/register", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
